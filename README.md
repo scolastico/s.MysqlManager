@@ -14,11 +14,13 @@ s.MysqlManager is a library to make the management of MySQL or SqLite databases 
 ### Maven:
 s.MysqlManager is in the maven central repository so to install it just add the following dependency to your `pom.xml`.
 ```xml
-<dependencys>
-  <groupId>me.scolastico</groupId>
-  <artifactId>mysql.manager</artifactId>
-  <version>1.0.0</version>
-</dependencys>
+  <dependencies>
+    <dependency>
+      <groupId>me.scolastico</groupId>
+      <artifactId>mysql.manager</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
 ```
 
 ## Usage
