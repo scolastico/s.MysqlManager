@@ -144,9 +144,9 @@ public class MysqlManager {
       }
     }
     if (sqLite) {
-      connection.prepareStatement("CREATE TABLE `" + tableName + "` (`id` INTEGER PRIMARY KEY" + value.toString() + ");").execute();
+      connection.prepareStatement("CREATE TABLE IF NOT EXISTS `" + tableName + "` (`id` INTEGER PRIMARY KEY" + value.toString() + ");").execute();
     } else {
-      connection.prepareStatement("CREATE TABLE `" + tableName + "` (`id` INT NOT NULL AUTO_INCREMENT" + value.toString() + ", PRIMARY KEY( `id` ));").execute();
+      connection.prepareStatement("CREATE TABLE IF NOT EXISTS `" + tableName + "` (`id` INT NOT NULL AUTO_INCREMENT" + value.toString() + ", PRIMARY KEY( `id` ));").execute();
     }
     if (!tableName.equals("MySQL_Manager_Internal")) {
       Fields f = new Fields();
