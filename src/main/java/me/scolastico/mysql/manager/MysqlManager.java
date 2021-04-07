@@ -219,7 +219,6 @@ public class MysqlManager {
       ret.add(obj);
     }
     rs.close();
-    rs.getStatement().close();
     return ret.toArray();
   }
 
