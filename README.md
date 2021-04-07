@@ -18,7 +18,7 @@ s.MysqlManager is in the maven central repository so to install it just add the 
     <dependency>
       <groupId>me.scolastico</groupId>
       <artifactId>mysql.manager</artifactId>
-      <version>1.0.1</version>
+      <version>1.0.2</version>
     </dependency>
   </dependencies>
 ```
