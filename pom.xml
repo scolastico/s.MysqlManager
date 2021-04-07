@@ -7,7 +7,7 @@
   <name>s.MysqlManager</name>
   <groupId>me.scolastico</groupId>
   <artifactId>mysql.manager</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
   <url>https://github.com/scolastico/s.MysqlManager</url>
   <description>Doctrine but for Java!</description>
 
