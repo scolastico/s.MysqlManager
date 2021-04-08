@@ -23,7 +23,7 @@ s.MysqlManager is in the maven central repository so to install it just add the 
   </dependencies>
 ```
 ### Other:
-Instructions for installing with a different build manager can be found [here](https://search.maven.org/artifact/me.scolastico/mysql.manager/1.0.1/jar).
+Instructions for installing with a different build manager can be found [here](https://search.maven.org/artifact/me.scolastico/mysql.manager/1.0.2/jar).
 
 ## Usage
 To use s.MysqlManager first go to https://smm-generator.scolasti.co and create a database class. Next add them to your project. In order to be able to use the database class, use the following example code and replace ExampleDataHolder with the name of your class.
