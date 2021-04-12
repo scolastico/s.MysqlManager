@@ -177,7 +177,6 @@ public class MysqlManager {
       Map<String, Field> fields = getAllFields(table);
       fillDataHolder(table, rs, fields, table);
       rs.close();
-      rs.getStatement().close();
       return table;
     }
     return null;
